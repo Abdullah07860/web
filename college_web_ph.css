@@ -1,0 +1,46 @@
+
+#navbar .right ul{
+    /* to remove the nav bar  */
+    display: none;
+}
+#navbar .right2{
+    display: inline-block;
+    margin-right: -234px;
+    margin-top: 20px;
+}
+
+#navbar .left p{
+    font-size: .9rem;
+    margin-top: 25px;
+}
+
+/* 2nd part */
+
+.courses-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.courses-box .csbox1,.csbox2,.csbox3{
+    margin-bottom:  12px;
+    width: 38vw;
+}
+.courses-box h2{
+    font-size: .75rem;
+}
+.courses-box p{
+    font-size: .5rem;
+}
+
+/* 3rd part  */
+
+.our-fcbox .our-fcbox1,.our-fcbox2,.our-fcbox3{
+    width: 30vw;
+}
+.boxnp1,.boxnp2,.boxnp3{
+    margin-bottom: 34px;
+}
+.our-fcbox{
+    display: flex;
+    flex-direction: column;
+}
